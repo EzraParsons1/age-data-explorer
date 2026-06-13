@@ -1,0 +1,10 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - conda>=26.3.2
+  - mamba>=2.5.0
+  - pip
+  - python=3.13
+
+prefix: "/home/ezrap/miniforge3"
