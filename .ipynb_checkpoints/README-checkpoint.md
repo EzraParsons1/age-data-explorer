@@ -21,5 +21,5 @@ git clone https://github.com/EzraParsons1/age-data-explorer.git
 cd age-data-explorer
 mamba env create -f environment.yml
 mamba activate pydata
-jupyter lab   # then open and run ade.ipynb top to bottom
+jupyter lab   # then open and run eda.ipynb top to bottom
 ```
