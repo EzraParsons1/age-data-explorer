@@ -13,7 +13,7 @@ The data loads directly from scikit-learn (`load_diabetes(as_frame=True)`).
   - age and sex were only moderately correlated with disease
   - sexes were not labeled in the data so only the difference between them     could be determined
 
-![Feature correlations with disease progression (figures/features_correlation.png)
+![Feature correlations with disease progression] (figures/features_correlation.png)
 
 ## How to run it
 bash
