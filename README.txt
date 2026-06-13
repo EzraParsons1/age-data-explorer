@@ -9,16 +9,17 @@ The data loads directly from scikit-learn (`load_diabetes(as_frame=True)`).
 
 ## Key findings
   - BMI and s5 were the most heavily correlated with disease progression
-  - 133 patients had BMI below the median and 219 had BMI above the median
-  - age and sex were only moderately correlated with disease
-  - sexes were not labeled in the data so only the difference between them     could be determined
+  - the mean progression for those with high-BMI was ~191 vs ~113 for low_BMI
+  - age was weakly correlated to progression and sex was essentially uncorrelated
+  - sexes were not labeled in the data so only the difference between them could be determined
 
-![Feature correlations with disease progression] (figures/features_correlation.png)
+![Feature correlations with disease progression](figures/features_correlation.png)
 
 ## How to run it
-bash
+```bash
 git clone https://github.com/EzraParsons1/age-data-explorer.git
 cd age-data-explorer
 mamba env create -f environment.yml
 mamba activate pydata
 jupyter lab   # then open and run ade.ipynb top to bottom
+```
