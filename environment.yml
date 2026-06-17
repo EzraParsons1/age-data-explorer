@@ -1,10 +1,11 @@
-name: base
+name: pydata
 channels:
   - conda-forge
 dependencies:
-  - conda>=26.3.2
-  - mamba>=2.5.0
-  - pip
-  - python=3.13
-
-prefix: "/home/ezrap/miniforge3"
+  - python=3.12
+  - numpy=2.4
+  - pandas=3.0
+  - matplotlib=3.11
+  - scikit-learn=1.9
+  - jupyterlab
+  - nbconvert
